@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>TEI with CETEIcean</title>
+  <link rel="stylesheet" href="CETEIcean.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="mystyle.css" media="screen" charset="utf-8">
+  <script src="CETEI.js"></script>
+</head>
+<body>
+  <div id="tei-content"></div>
+  <script>
+    let teiArea = document.getElementById('tei-content');
+    let ceteicean = new CETEI();
+    ceteicean.getHTML5("myFirstTeiFile.xml", function(data) {
+      teiArea.appendChild(data);
+    });
+  </script>
+</body>
+</html>

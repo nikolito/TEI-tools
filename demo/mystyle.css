@@ -1,0 +1,73 @@
+/* 全体の縦書きスタイル */
+tei-tei {
+  writing-mode: vertical-rl; /* 縦書き: 右から左 */
+  text-orientation: upright; /* 文字を直立表示 */
+  font-family: "Noto Serif JP", serif; /* モダンな和文フォント */
+  line-height: 2; /* 行間を広めに設定 */
+  letter-spacing: 0.1em; /* 文字間隔を少し広げる */
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4; /* 背景色を薄いグレーに */
+  border: 1px solid #ddd; /* ソフトなボーダー */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 軽いシャドウ効果 */
+}
+
+/* 詩の1連ごとのスタイル */
+tei-lg {
+  margin-right: 2em; /* 各連の間にスペースを追加 */
+  margin-left: 2em;
+}
+
+/* 詩の1行ごとのスタイル */
+tei-l {
+  font-size: 1.2em; /* 少し大きめの文字サイズ */
+  color: #333; /* ダークグレーの文字色 */
+  transition: color 0.3s ease-in-out; /* マウスホバー時の色変化をスムーズに */
+}
+
+/* ホバー効果で動きのあるデザイン */
+tei-l:hover {
+  color: #007acc; /* マウスホバー時にブルーに変化 */
+}
+
+/* タイトル部分 */
+tei-head {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5em; /* タイトルを大きめに */
+  font-weight: bold;
+  color: #007acc; /* モダンな青色 */
+  margin-top: 20px;
+  margin-left: 1.2em;
+  text-align:left
+}
+
+/* 特定のセクションタイトル */
+tei-title {
+  font-size: 1.3em;
+  color: #555;
+  font-style: bold;
+  font-family: "Noto Serif JP", serif;
+}
+
+/* パラグラフ<p> */
+tei-p {
+  font-size: 1.5em;
+  color: #3b413e;
+  margin-left: 1em;
+}
+
+/* 全体に柔らかいアニメーションを追加 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+tei-tei {
+  animation: fadeIn 1s ease-in-out;
+}
