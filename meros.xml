@@ -41,8 +41,7 @@
                               <gi>placeName</gi>の@typeでは、実際にいた場所を"real"、そうでない場所を"unreal"として区別している。 </p>
                         <p>
                               <gi>persName</gi>は、人称代名詞以外の人や人々を指す名詞に付与している。人称代名詞には<gi>rs</gi>
-                              を付与している。いずれも@correspでID参照している。
-                        </p>
+                              を付与している。いずれも@correspでID参照している。 </p>
                   </editorialDecl>
 
             </encodingDesc>
@@ -797,9 +796,8 @@
                         <said who="#メロス">
                         「いや、まだ陽は沈まぬ。」</said><persName corresp="#メロス"
                         >メロス</persName>
-                        は胸の張り裂ける思いで、赤く大きい夕陽ばかりを見つめていた。走るより他は無い。
-                              <said>
-                        「やめて下さい。走るのは、やめて下さい。いまは<rs corresp="#メロス">ご自分</rs>のお命が大事です。<rs
+                        は胸の張り裂ける思いで、赤く大きい夕陽ばかりを見つめていた。走るより他は無い。 <said> 「やめて下さい。走るのは、やめて下さい。いまは<rs
+                                    corresp="#メロス">ご自分</rs>のお命が大事です。<rs
                                     corresp="#セリヌンティウス">あの方</rs>は、<rs corresp="#メロス">あなた</rs>
                         を信じて居りました。 <placeName
                                     type="unreal">刑場</placeName>に引き出されても、平気でいました。<persName
@@ -892,9 +890,8 @@
                               who="#セリヌンティウス #メロス">「ありがとう、<persName corresp="#セリヌンティウス #メロス"
                               >友</persName>
                         よ。」</said> <rs corresp="#セリヌンティウス #メロス">二人</rs>
-                        同時に言い、ひしと抱き合い、それから嬉し泣きにおいおい声を放って泣いた。
-                              <persName>
-                        群衆</persName>の中からも、<ruby>
+                        同時に言い、ひしと抱き合い、それから嬉し泣きにおいおい声を放って泣いた。 <persName>
+                              群衆</persName>の中からも、<ruby>
                               <rb>歔欷</rb>
                               <rt>きょき</rt>
                         </ruby>の声が聞えた。<persName
