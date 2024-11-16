@@ -4,9 +4,10 @@ TEIの学習動画で紹介しているファイルやツールを配布して�
 
 それ以外でも有用であれば、ご自由にお使いください。（CC BY）
 
-meros.xmlはよりダウンロードし、こちらでタグの修正やフォーマットを整えたものを利用しています。
+meros.xmlは[TEI研究会](https://tei.dhii.jp/home)提供の[TEI古典籍ビューワ](https://tei.dhii.jp/teiviewer4eaj)のページにある活用事例の「[走れメロス](https://raw.githubusercontent.com/TEIC/CETEIcean/master/tutorial_ja/meros.xml)」よりダウンロードし、こちらでタグの修正やフォーマットを整えたものを利用しています。
 
-### データ提供者
+
+## データ提供者
 
 大阪大学グローバル日本学教育研究拠点
 
